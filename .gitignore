@@ -3,7 +3,7 @@
 DOCS-React1/
 
 lib/node_modules
-dist/
+<!-- dist/ -->
 css/
 lib/.sass-cache
 .DS_Store
