@@ -1,0 +1,12 @@
+# Libraries & Stuff #
+#####################
+DOCS-React1/
+
+lib/node_modules
+dist/
+css/
+lib/.sass-cache
+.DS_Store
+
+
+
