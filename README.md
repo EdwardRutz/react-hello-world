@@ -1,12 +1,12 @@
 React Hello World!
 
-A basic React app.
+A basic React app with a simple react element containing an class and id.
 
 ## Dependencies
 - Node.js v6.11.0
 - NPM v5.6.0
 - React v16.2.0
-
+- Babel Browser Transpiler v5.8.38 
 
 
 ## SetUp
@@ -33,3 +33,9 @@ A basic React app.
 - [React Docs](https://reactjs.net)
 - [NPM: React](https://www.npmjs.com/package/react)
 - [Deploying React App to Github Pages](https://github.com/gitname/react-gh-pages)
+- [Github Pages: React](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#github-pages)
+- [Babel](https://babeljs.io)
+- [CDNJS: Babel-Core CDN](https://cdnjs.com)
+
+
+

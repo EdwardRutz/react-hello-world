@@ -1,14 +1,32 @@
 // A React element with three arguements: element, properties, child content
+// Refactored to use JSX and tags
+// Use tags instead of the createElement calls
+// A JSX expression wraps the class name in curly brackets {}
+// Needs to be refactored with babel before code will display.
 
-const title = React.createElement(
-  'h1', // The element we create
-  {id: 'title', className: 'header'},  //The properties of the elemnet
-  'Hello World, Hello React!'    // Child content the element contains. Displays content inside of h1
-  )
+const { render } = ReactDOM
 
-// Render the above element, uses two arguements
-ReactDOM.render(
-  title, // The name of the element to render
-  // Where we want to render the element to the DOM
+// Styling
+const style = { 
+  backgroundColor: 'orange',
+  color: 'white',
+  fontFamily: 'verdana'
+}
+
+render(
+  <h1 id='title'
+      className='header'
+      style={{backgroundColor: 'orange', color: 'white', fontFamily: 'verdana'}}>
+    Hello World, Hello React!
+  </h1>,
   document.getElementById('react-container')
-  )
+)
+
+
+
+
+
+
+
+
+
