@@ -4,6 +4,8 @@
   <!-- REACT 15.1.0 CDN -->
   <script src="https://fb.me/react-15.1.0.js"></script>
   <script src="https://fb.me/react-dom-15.1.0.js"></script>
+  
+  <!-- CDN added for Babel reinterpreted JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.js"></script>
 
   <meta charset="utf-8">
@@ -13,8 +15,11 @@
 <body>
   <!-- Add a react container -->
   <div id="react-container"></div> 
+
   <!-- Link to index.js -->
   <script type="text/babel" src="index.js"></script>
-
+      <!-- Added "type" to script for Babel
+      <script src="index.js"></script>
+      -->
 </body>
 </html>

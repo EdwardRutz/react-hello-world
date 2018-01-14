@@ -2,9 +2,8 @@
 #####################
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-
+# Basic
 DOCS-React1/
-
 lib/node_modules
 <!-- dist/ -->
 lib/.sass-cache
@@ -12,7 +11,7 @@ lib/.sass-cache
 
 
 
-
+#### REACT ITEMS ####
 # dependencies
 /node_modules
 
@@ -31,3 +30,6 @@ lib/.sass-cache
 .env.production.local
 
 npm-debug.log*
+
+######################
+
