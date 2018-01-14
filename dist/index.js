@@ -6,13 +6,6 @@
 
 const { render } = ReactDOM
 
-// Styling
-const style = { 
-  backgroundColor: 'orange',
-  color: 'white',
-  fontFamily: 'verdana'
-}
-
 render(
   <h1 id='title'
       className='header'

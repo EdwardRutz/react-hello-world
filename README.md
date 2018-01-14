@@ -26,7 +26,7 @@ A basic React app with a simple react element containing an class and id.
 - Refactored to use JSX and tags
 - Use tags instead of the createElement calls
 - A JSX expression wraps the class name in curly brackets {}
-- Refactored with babel before code will display.
+- Refactored/transpiled JSX with babel before code will display.
 
 
 
