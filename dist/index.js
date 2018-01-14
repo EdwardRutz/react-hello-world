@@ -3,7 +3,7 @@
 const title = React.createElement(
   'h1', // The element we create
   {id: 'title', className: 'header'},  //The properties of the elemnet
-  'Hello World!'    // Child content the element contains. Displays content inside of h1
+  'Hello World, Hello React!'    // Child content the element contains. Displays content inside of h1
   )
 
 // Render the above element, uses two arguements
